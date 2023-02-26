@@ -1,4 +1,4 @@
-# Mails Label Extractor
+# Mails Threads Extractor
 
 This is a simple Google Cloud Function which extracts the threads of your email addresses and sends it back as an API Call response.
 
