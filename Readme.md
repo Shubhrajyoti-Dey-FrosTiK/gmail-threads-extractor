@@ -66,12 +66,15 @@ In `functions.go` we define all the functions and we call the `labels` functions
 
 After you have started the server with the `make` command you can hit `http://localhost8080/labels` and check the output.
 
-$ Endpoints
+# Endpoints
 
-`/threads` extracts the recent list of threads. Here optionally you can provide `thread_page` which is the `id` of the thread page and it will automatically detect it and fetch it.
-`/threads/from` extracts the list of threads provided `from` in the header
-`/threads/label` extracts the list of threads provided `label` in the header
-`threads/id` extracts the thread provided `thread_id` in the header
+1. `/threads` extracts the recent list of threads. Here optionally you can provide `thread_page` which is the `id` of the thread page and it will automatically detect it and fetch it.
+
+2. `/threads/from` extracts the list of threads provided `from` in the header
+
+3. `/threads/label` extracts the list of threads provided `label` in the header
+
+4. `threads/id` extracts the thread provided `thread_id` in the header
 
 # Deployment
 
